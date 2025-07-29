@@ -1,21 +1,28 @@
 import "./styles/theme.css";
 import "./styles/global.css";
+import { Container } from "./components/Container";
 import { Heading } from "./components/Heading";
-import { TimerIcon } from "lucide-react";
 
 export function App() {
   console.log("Hello, Chronos Pomodoro!");
 
   return (
     <>
-      <Heading>
-        Hello, Chronos Pomodoro!
-        <button>
-          <TimerIcon />
-        </button>
-      </Heading>
+      <Container>
+        <Heading>Logo</Heading>
+      </Container>
 
-      <p>Welcome to your productivity app.</p>
+      <Container>
+        <section>MENU</section>
+      </Container>
+
+      <Container>
+        <section>FORM</section>
+      </Container>
+
+      <Container>
+        <section>FOOTER</section>
+      </Container>
     </>
   );
 }
