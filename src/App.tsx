@@ -2,9 +2,9 @@ import "./styles/theme.css";
 import "./styles/global.css";
 
 import { Container } from "./components/Container";
-import { Heading } from "./components/Heading";
 import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
+import { CountDown } from "./components/CountDown";
 
 export function App() {
   console.log("Hello, Chronos Pomodoro!");
@@ -20,7 +20,7 @@ export function App() {
       </Container>
 
       <Container>
-        <section>FORM</section>
+        <CountDown />
       </Container>
 
       <Container>
