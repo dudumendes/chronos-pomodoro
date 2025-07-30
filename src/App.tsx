@@ -32,6 +32,7 @@ export function App() {
               type="number"
               id="myInput"
               name="myInput"
+              placeholder="Enter your task"
             />
           </div>
 
