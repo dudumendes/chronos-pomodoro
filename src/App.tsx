@@ -24,7 +24,25 @@ export function App() {
       </Container>
 
       <Container>
-        <section>FOOTER</section>
+        <form className="form" action="">
+          <div className="formRow">
+            <label htmlFor="taskName">Task Name</label>
+            <input type="text" id="taskName" name="taskName" />
+          </div>
+
+          <div className="formRow">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div className="formRow">
+            <p>Ciclos</p>
+            <p>0 0 0 0 0 0 0 </p>
+          </div>
+
+          <div className="formRow">
+            <button type="submit">Start</button>
+          </div>
+        </form>
       </Container>
     </>
   );
