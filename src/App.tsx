@@ -8,12 +8,10 @@ import { CountDown } from "./components/CountDown";
 import { DefaultInput } from "./components/DefaultInput";
 import { Cycles } from "./components/Cycles";
 import { DefaultButton } from "./components/DefaultButton";
-import { PlayCircleIcon, PlayIcon } from "lucide-react";
+import { PlayCircleIcon } from "lucide-react";
 import { Footer } from "./components/Footer";
 
 export function App() {
-  console.log("Hello, Chronos Pomodoro!");
-
   return (
     <>
       <Container>
